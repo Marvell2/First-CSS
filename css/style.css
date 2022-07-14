@@ -43,6 +43,11 @@ a:visited{
     padding: 20px;
     margin: 20px 0;
 }
+.button{
+    background-color: yellow;
+    padding: 10px 15px;
+    border: none;
+}
 .cantik p {
     font-family: Tahoma;
     font-weight: 800;
@@ -78,6 +83,20 @@ a:visited{
     padding-bottom: 6px;
     border-bottom: dotted 1px #333;
     padding-left: 30px;
-   
 
 }
+.my-form{
+    padding:20px;
+    border: 12px #333 solid;
+}
+.my-form .form-group{
+    padding-bottom:10px;
+}
+.my-form label{
+    display:block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
