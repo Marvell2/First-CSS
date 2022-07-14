@@ -1,3 +1,8 @@
+/*for everything to be like this 
+*{
+    margin: 0;
+    padding: 0;
+} */
 body {
   background-color: #abcdef;
   color: bisque;
@@ -11,11 +16,68 @@ body {
   margin:0;
 
 }
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    color:green;
+}
+a:active{
+    color:red
+}
+a:visited{
+    color:white
+}
 .cantik{
     background-color: #333333;
     color: red;
 }
 .container{
     margin: auto;
-    width: 300px;
+    width: 80%;
+    border: 10px pink solid;
+    border-bottom-style: dotted;
+
+    padding: 20px;
+    margin: 20px 0;
+}
+.cantik p {
+    font-family: Tahoma;
+    font-weight: 800;
+    font-size:15px;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform:lowercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+.cantik2 {
+    border: 3px dotted black;
+    padding: 10px;
+    margin: 20px;
+    font-size: 15px;
+    color:green;
+
+}
+.categories{
+    border: 1px grey solid;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+}
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    padding:0;
+    list-style: none;
+}
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    padding-left: 30px;
+   
+
 }
