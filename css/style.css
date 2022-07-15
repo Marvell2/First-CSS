@@ -16,6 +16,9 @@ body {
   margin:0;
 
 }
+.clr{
+    clear:both
+}
 a{
     text-decoration: none;
     color: black;
@@ -99,4 +102,50 @@ a:visited{
     padding: 8px;
     width: 100%;
 }
+.block{
+    float: left;
+    width:33%;
+    border:1px solid #ccc;
+    padding:10px;
+    box-sizing: border-box;
 
+}
+#mainblock{
+    float:left;
+    width:30%;
+    color: black;
+
+}
+#sidebar{
+    float:right;
+    width: 70%;
+    padding: 10px;
+    border: 1px;
+    box-sizing: border-box;
+    background-color: #333;
+
+}
+.p-box{
+    width: 800px;
+    height:500px;
+    border: 1px solid black;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(../images/d.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.p-box h1{
+    position: absolute;
+    top:100px;
+    left:20px;
+}
+.my-list li:first-child{
+    background: red;
+}
+.my-list li:last-child{
+    background-color: blue;
+}
+.my-list li:nth-child(even){
+    background: grey;
+}
